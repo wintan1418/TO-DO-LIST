@@ -24,5 +24,40 @@
         <label for="inputdate" class="form-label">Due-date</label>
         <input type="date" class="form-control" id="inputdate">
       </div>
+      <div class="col-12">
+        <label for="inputdescription" class="form-label">Description</label>
+        <textarea type="textarea" class="form-control" id="inputdescription" placeholder="Description"></textarea>
+      </div>
+      <div class="col-md-8">
+        <label for="inputnote" class="form-label">Note</label>
+        <input type="text" class="form-control" id="inputnote" placeholder="Please Leave a Note">
+      </div>
+      <div class="col-md-4">
+        <label for="inputpriority" class="form-label">Priority</label>
+        <select id="inputpriority" class="form-select">
+          <option selected>Choose...</option>
+          <option>Low</option>
+          <option>Medium</option>
+          <option>High</option>
+        </select>
+      </div>
+      <div class="col-12">
+        <div class="col-md-12">
+          <label for="inputproject" class="form-label">Project</label>
+          <input type="text" class="form-control" id="inputproject" placeholder="Project name">
+        </div>
+      </div>
+      <div class="col-12" id="btn-div">
+        <button id="tasksubmit" type="button" class="btn btn-primary">Create Task</button>
+      </div>
+    </form>
+  </div>
+
+  <div id="all-projects-content">
+
+
+
+  </div>
+
 </body>
 </html>
