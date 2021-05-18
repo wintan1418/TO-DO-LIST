@@ -50,4 +50,9 @@ const displayProjects = (projects) => {
 
       modifyBtn.onclick = () => modifyItem(item, project);
       deleteBtn.onclick = () => deleteItem(item, project);
-
+      listItem.append(modifyBtn, deleteBtn);
+      listElement.appendChild(listItem);
+    });
+  });
+};
+export { displayProjects, formatDate };
