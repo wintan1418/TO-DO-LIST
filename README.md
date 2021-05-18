@@ -7,13 +7,13 @@ This project entails you building an app that allows you to
 - Show different projects(categories)
 - Modify and delete tasks
 
-![Form Screenshot](./img/)
 
-![Projects Screenshot](./img/)
+
+![Projects Screenshot](./img/screenshot.png)
 
 ### Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/wintan1418/TO-DO-LIST/feature/dist/index.html)
 
 ## Built With
 
