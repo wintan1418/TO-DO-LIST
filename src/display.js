@@ -9,6 +9,7 @@ const formatDate = (input) => {
   const result = date.toLocaleDateString('en-US', options);
   return result;
 };
+
 const displayProjects = (projects) => {
   const projectsMain = document.querySelector('#all-projects-content');
   document.querySelector('#all-projects-content').innerHTML = '';
@@ -21,6 +22,7 @@ const displayProjects = (projects) => {
 
     const listElement = document.createElement('ul');
     listElement.id = `${project.name}-list`;
+
     container.append(heading, listElement);
     projectsMain.appendChild(container);
 
@@ -50,9 +52,11 @@ const displayProjects = (projects) => {
 
       modifyBtn.onclick = () => modifyItem(item, project);
       deleteBtn.onclick = () => deleteItem(item, project);
+
       listItem.append(modifyBtn, deleteBtn);
       listElement.appendChild(listItem);
     });
   });
 };
+
 export { displayProjects, formatDate };

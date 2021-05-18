@@ -1,4 +1,4 @@
-import './style.scss';
+import './styles.scss';
 
 import projectFactory from './factory';
 import { initialize, saveData } from './storage';
@@ -9,6 +9,8 @@ const initialData = initialize([], 0);
 const { projects } = initialData;
 
 let { id } = initialData;
+
+// crating To-do's
 const todoFactory = (title, duedate, desc, note, priority, temp = 'Empty') => {
   if (temp === 'Empty') {
     id += 1;
@@ -19,6 +21,9 @@ const todoFactory = (title, duedate, desc, note, priority, temp = 'Empty') => {
     id, title, duedate, desc, note, priority,
   };
 };
+
+// delete task from projects
+
 const deleteItem = (task, project) => {
   const currentProject = projects.find(o => o.name === project.name);
   currentProject.list = currentProject.list.filter(x => x.id !== task.id);
@@ -86,6 +91,8 @@ const saveModifiedData = (item, project) => {
 
   return false;
 };
+
+// display the modify data in the form
 const modifyItem = (item, project) => {
   const title = document.querySelector('#inputtitle');
   const date = document.querySelector('#inputdate');
@@ -119,12 +126,16 @@ if (projects.length === 0) {
 } else {
   displayProjects(projects);
 }
+
+// Adds a task to the project (project is a string)
 const addTaskToProject = (task, project) => {
   const currentProject = projects.find(o => o.name === project);
   currentProject.list.push(task);
   saveData(projects, id);
   displayProjects(projects);
 };
+
+// Parses the form input
 const forminput = () => {
   const title = document.querySelector('#inputtitle').value.trim();
   const date = document.querySelector('#inputdate').value;
@@ -151,6 +162,8 @@ const forminput = () => {
     setAlert(alert, 'danger');
   }
 };
+
+// Main create task button
 const btn = document.querySelector('#tasksubmit');
 
 btn.onclick = forminput;

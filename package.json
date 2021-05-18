@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NAME/TO-DO-LIST"
+    "url": "git+https://github.com/wintan1418/TO-DO-LIST.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com//TO-DO-LIST/issues"
+    "url": "https://github.com/wintan1418/TO-DO-LIST/issues"
   },
-  "homepage": "https://github.com//TO-DO-LIST#readme",
+  "homepage": "https://github.com/wintan1418/TO-DO-LIST#readme",
   "devDependencies": {
     "css-loader": "^5.1.1",
     "sass": "^1.32.8",
