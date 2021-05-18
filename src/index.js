@@ -119,3 +119,9 @@ if (projects.length === 0) {
 } else {
   displayProjects(projects);
 }
+const addTaskToProject = (task, project) => {
+  const currentProject = projects.find(o => o.name === project);
+  currentProject.list.push(task);
+  saveData(projects, id);
+  displayProjects(projects);
+};
