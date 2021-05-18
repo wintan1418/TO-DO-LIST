@@ -1,7 +1,7 @@
-import './styles.scss';
+import './style.scss';
 
 import projectFactory from './factory';
-import { initialize, saveData } from './storagedata';
+import { initialize, saveData } from './storage';
 import { displayProjects } from './display'; // eslint-disable-line
 
 const initialData = initialize([], 0);
@@ -151,3 +151,8 @@ const forminput = () => {
     setAlert(alert, 'danger');
   }
 };
+const btn = document.querySelector('#tasksubmit');
+
+btn.onclick = forminput;
+
+export { modifyItem, deleteItem };
