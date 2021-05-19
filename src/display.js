@@ -23,7 +23,10 @@ const displayProjects = (projects) => {
     const listElement = document.createElement('ul');
     listElement.id = `${project.name}-list`;
 
-    container.append(heading, listElement);
+    const listTask = document.createElement('li');
+    listTask.textContent = 'title: cleaning  date:12/02/2021  priority: low';
+
+    container.append(heading, listElement, listTask);
     projectsMain.appendChild(container);
 
     const listItems = project.list;
