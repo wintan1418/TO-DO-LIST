@@ -5,7 +5,7 @@ This project entails you building an app that allows you to
 - Create new tasks 
 - Show the present tasks in the todo list app
 - Show different projects(categories)
-- Modify and delete tasks
+- Modify and delete tasks.
 
 
 ![Projects Screenshot](./img/Screenshot97.png)
