@@ -1,50 +1,46 @@
 import { modifyItem, deleteItem } from './index'; // eslint-disable-line
-
 const formatDate = (input) => {
   const options = {
     year: 'numeric', month: 'long', day: 'numeric',
   };
-
   const date = new Date(input);
   const result = date.toLocaleDateString('en-US', options);
   return result;
 };
-
 const displayProjects = (projects) => {
   const projectsMain = document.querySelector('#all-projects-content');
   document.querySelector('#all-projects-content').innerHTML = '';
+  const newProject = document.createElement('div');
+
+  newProject.setAttribute('class', 'default-list-project project-box');
+  const newTitle = document.createElement('h3');
+  newTitle.textContent = 'default';
+  const addList = document.createElement('ul');
+  addList.innerHTML = '<li>workout</li><li>13/07/2021</li><li>meduim</li>';
+
+  newProject.append(newTitle, addList);
+  projectsMain.appendChild(newProject);
 
   projects.forEach((project) => {
     const container = document.createElement('div');
     container.setAttribute('class', ` ${project.name}-project project-box`);
     const heading = document.createElement('h3');
     heading.textContent = project.name;
-
     const listElement = document.createElement('ul');
     listElement.id = `${project.name}-list`;
-
-    const listTask = document.createElement('li');
-    listTask.textContent = 'title: cleaning  date:12/02/2021  priority: low';
-
-    container.append(heading, listElement, listTask);
+    container.append(heading, listElement);
     projectsMain.appendChild(container);
-
     const listItems = project.list;
     listItems.forEach(item => {
       const listItem = document.createElement('li');
       const customDate = formatDate(item.duedate);
-
       const taskTitle = document.createElement('span');
       taskTitle.textContent = item.title;
-
       const taskDate = document.createElement('span');
       taskDate.textContent = customDate;
-
       const taskPriority = document.createElement('span');
       taskPriority.textContent = item.priority;
-
       listItem.append(taskTitle, taskDate, taskPriority);
-
       const modifyBtn = document.createElement('button');
       const deleteBtn = document.createElement('button');
       modifyBtn.innerHTML = '<img src="https://img.icons8.com/fluent-systems-regular/15/000000/edit-property.png" />';
@@ -52,14 +48,11 @@ const displayProjects = (projects) => {
       deleteBtn.innerHTML = '<img src="https://img.icons8.com/material-sharp/15/000000/delete-forever.png" />';
       deleteBtn.setAttribute('class', 'delete-btn btn btn-danger');
       listItem.setAttribute('class', 'listItem col-md-12');
-
       modifyBtn.onclick = () => modifyItem(item, project);
       deleteBtn.onclick = () => deleteItem(item, project);
-
       listItem.append(modifyBtn, deleteBtn);
       listElement.appendChild(listItem);
     });
   });
 };
-
 export { displayProjects, formatDate };
