@@ -16,6 +16,20 @@
   <h1 class="text-center"> To<span>do</span> List </h1>
   <div id="alert" role="alert">  </div>
   <div class="box">
+
+    <form id="task-form" class=" row g-3">
+
+      <div class="col-md-6">
+        
+        <label for="inputtitle" class="form-label">Title</label>
+        <input type="text" class="form-control" id="projectname" placeholder="Projectname">
+      </div>
+      <div class="col-12" id="btn-div">
+        <button id="tasksubmit" type="button" class="btn btn-primary"> create project</button>
+      </div>
+    </form>
+
+
     <form id="task-form" class=" row g-3">
 
       <div class="col-md-6">
@@ -46,14 +60,21 @@
           <option>Low</option>
           <option>Medium</option>
           <option>High</option>
+       
+       </select>
+      </div>
+      <div class="col-md-4">
+        <label for="inputproject" class="form-label">Priority</label>
+        <select id="inputproject" class="form-select">
+          <option selected>Choose...</option>
         </select>
       </div>
-      <div class="col-12">
+      <!-- <div class="col-12">
         <div class="col-md-12">
           <label for="inputproject" class="form-label">Project</label>
           <input type="text" class="form-control" id="inputproject" placeholder="Project name" value="Default">
         </div>
-      </div>
+      </div> -->
       <div class="col-12" id="btn-div">
         <button id="tasksubmit" type="button" class="btn btn-primary">Create Task</button>
       </div>
