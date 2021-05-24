@@ -2,101 +2,48 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <title>Todo List</title>
-  <script type="text/javascript" src="main.js" defer>
-
-  </script>
-</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
 
 <body>
-  <h1 class="text-center"> To<span>do</span> List </h1>
-  <div id="alert" role="alert">  </div>
-  <div class="box">
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Task Manager</a>
+            </div>
+        </nav>
+    </header>
 
-    <form id="task-form" class=" row g-3">
+    <main>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-5">
+                    <!-- Project form -->
+                    <form class="row g-1 align-items-center" id="projectForm">
+                        <div class="col">
+                            <!-- <label for="projectName" class="form-label mb-0">Project Name</label> -->
+                            <input type="text" class="form-control" id="projectName" name="projectName"
+                                placeholder="New project">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary">Create</button>
+                        </div>
+                    </form>
 
-      <div class="col-md-6">
-        
-        <label for="inputtitle" class="form-label">Title</label>
-        <input type="text" class="form-control" id="projectname" placeholder="Projectname">
-      </div>
-      <div class="col-12" id="btn-div">
-        <button id="tasksubmit" type="button" class="btn btn-primary"> create project</button>
-      </div>
-    </form>
-
-
-    <form id="task-form" class=" row g-3">
-
-      <div class="col-md-6">
-        
-        <label for="inputtitle" class="form-label">Title</label>
-        <input type="text" class="form-control" id="inputtitle" placeholder="Title">
-      </div>
-     
-      <div class="col-md-6">
-        <label for="inputdate" class="form-label">Due-date</label>
-        <input type="date" class="form-control" id="inputdate">
-      </div>
-      
-      <div class="col-12">
-        <label for="inputdescription" class="form-label">Description</label>
-        <textarea type="textarea" class="form-control" id="inputdescription" placeholder="Description"></textarea>
-      </div>
-      
-      <div class="col-md-8">
-        <label for="inputnote" class="form-label">Note</label>
-        <input type="text" class="form-control" id="inputnote" placeholder=" scribble ">
-      </div>
-      
-      <div class="col-md-4">
-        <label for="inputpriority" class="form-label">Priority</label>
-        <select id="inputpriority" class="form-select">
-          <option selected>Choose...</option>
-          <option>Low</option>
-          <option>Medium</option>
-          <option>High</option>
-       
-       </select>
-      </div>
-      <div class="col-md-4">
-        <label for="inputproject" class="form-label">Priority</label>
-        <select id="inputproject" class="form-select">
-          <option selected>Choose...</option>
-        </select>
-      </div>
-      <!-- <div class="col-12">
-        <div class="col-md-12">
-          <label for="inputproject" class="form-label">Project</label>
-          <input type="text" class="form-control" id="inputproject" placeholder="Project name" value="Default">
+                    <!-- All projects -->
+                    <nav class="nav nav-pill flex-column mt-4" id="projectsTree">
+                        <h6>All projects</h6>
+                    </nav>
+                </div>
+                <div class="col-md-5">
+                    <!-- Todos -->
+                </div>
+            </div>
         </div>
-      </div> -->
-      <div class="col-12" id="btn-div">
-        <button id="tasksubmit" type="button" class="btn btn-primary">Create Task</button>
-      </div>
-    </form>
-  </div>
-
-  <div id="all-projects-content">
-
-
-
-  </div>
-
-
-
-
-
-
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </main>
 </body>
 
 </html>
