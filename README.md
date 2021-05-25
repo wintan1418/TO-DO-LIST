@@ -12,7 +12,7 @@ This project entails you building an app that allows you to
 
 ### Live Demo
 
-[Live Demo Link](https://raw.githack.com/wintan1418/TO-DO-LIST/feature/dist/index.html)
+[Live Demo Link](https://wizardly-mcnulty-36f1de.netlify.app/)
 
 ## Built With
 
