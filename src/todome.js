@@ -1,4 +1,4 @@
-import { randomID } from '../utility';
+import { randomID } from './utility';
 
 export default class Todo {
   constructor(data) {

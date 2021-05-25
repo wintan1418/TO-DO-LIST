@@ -1,3 +1,5 @@
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+@import '~bootstrap/scss/bootstrap';
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +7,10 @@
 }
 
 body {
-  // background-image: url(./task.jpg);
-  background: linear-gradient(rgba(245, 240, 240, 0.8), rgba(245, 240, 240, 0)), url(./banner.jpg);
+  
+  background: linear-gradient(rgba(80, 4, 33, 0.8), rgba(15, 1, 1, 0.329)247) ;
   background-size: cover;
+  
 }
 
 .box {
