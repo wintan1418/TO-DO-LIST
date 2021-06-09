@@ -37,17 +37,17 @@ describe('delete', () => {
   const todo = 'I am going south';
   const todoDelete = Project.getAll().length;
   it('deletes task from localStorage', () => {
-    todo.delete;
+    todo.Delete;
     const todoCheck = Project.getAll().length;
     todoDelete !== todoCheck;
   });
 });
 
 describe('update', () => {
-  let update = 'I love yam';
+  let update = 'I am going south';
   const updateSave = update.id;
   it('update task from localStorage', () => {
-    update = 'I love yam and egg';
+    update = 'I am going north';
     updateSave === update;
   });
 });
