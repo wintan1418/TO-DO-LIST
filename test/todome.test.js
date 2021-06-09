@@ -1,4 +1,4 @@
-import Project from '../src/projectme';
+import Project from '../src/module/projectme';
 
 describe('Project', () => {
   const project = new Project('My-Test Project');

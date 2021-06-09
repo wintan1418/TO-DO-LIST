@@ -4,12 +4,21 @@
   "description": "This project entails you building an app that allows you to",
   "main": "index.js",
   "scripts": {
-    "test":  "jest",
+    "test": "jest",
     "build": "webpack --mode production",
     "watch": "webpack --watch --mode=development",
     "serve": "webpack serve",
     "dev": "webpack --mode development"
   },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "eslintIgnore": [
+    "todome.test.js",
+    "projectme.test.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wintan1418/TO-DO-LIST.git"
