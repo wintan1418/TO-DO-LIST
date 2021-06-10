@@ -1,5 +1,5 @@
-import Project from '../src/module/projectme';
-import Todo from '../src/module/todome';
+import Project from '../src/projectme';
+import Todo from '../src/todome';
 
 describe('todo', () => {
   const todo = new Todo('Test todo');
