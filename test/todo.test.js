@@ -36,7 +36,7 @@ describe('todo', () => {
 describe('delete', () => {
   const todo = 'I am going to the cinema';
   const todoDelete = Project.getAll().lenght;
-  it('deletes task from localStorage', () => {
+  it('deletes  the task from localStorage', () => {
     todo.delete;
     const todoCheck = Project.getAll().lenght;
     expect(todoDelete).toEqual(todoCheck);
