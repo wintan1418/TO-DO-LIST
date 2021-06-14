@@ -39,7 +39,7 @@ describe('delete', () => {
   it('deletes task from localStorage', () => {
     todo.delete;
     const todoCheck = Project.getAll().lenght;
-    todoDelete !== todoCheck;
+    expect(todoDelete).toEqual(todoCheck);
   });
 });
 
@@ -48,6 +48,6 @@ describe('update', () => {
   const updateSave = update.id;
   it('update task from localStorage', () => {
     update = 'I am going to the gym and to the cinema';
-    updateSave === update;
+   expect(updateSave).toEqual(update.id);
   });
 });
