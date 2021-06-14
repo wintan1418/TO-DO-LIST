@@ -8,7 +8,7 @@ This project entails you building an app that allows you to
 - Modify and delete tasks.
 
 
-![Projects Screenshot](./img/pico.png)
+![Projects Screenshot](pico.png)
 
 ### Live Demo
 
