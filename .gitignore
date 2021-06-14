@@ -1,2 +1,2 @@
-node_modules
-.tern-project
+node_modules/
+.vscode/

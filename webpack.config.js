@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  entry: './src/myindex.js',
+  entry: './src/index.js',
   output: {
     filename: 'main.js',
     path: path.join(__dirname, 'dist'),
@@ -17,14 +17,23 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(css|sass|scss)$/i,
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+        test: /\.m?js$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+            plugins: [
+              '@babel/plugin-proposal-object-rest-spread',
+              '@babel/plugin-proposal-class-properties',
+            ],
+            cacheDirectory: true,
+          },
+        },
       },
       {
-        test: /\.(jpg|png)$/,
-        use: {
-          loader: 'url-loader',
-        },
+        test: /\.(css|sass|scss)$/i,
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
       },
       {
         test: /\.html$/i,
@@ -36,7 +45,10 @@ module.exports = {
       },
       {
         test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        include: path.resolve(__dirname, './node_modules/bootstrap-icons/font/fonts'),
+        include: path.resolve(
+          __dirname,
+          './node_modules/bootstrap-icons/font/fonts',
+        ),
         use: {
           loader: 'file-loader',
           options: {

@@ -1,0 +1,3 @@
+test/**/*
+.test/project.test.js
+.test/todo.test.js

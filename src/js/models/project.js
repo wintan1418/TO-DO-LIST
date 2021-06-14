@@ -1,4 +1,4 @@
-import { randomID } from './utility';
+import { randomID } from '../utils';
 
 export default class Project {
   constructor(name) {

@@ -1,4 +1,5 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/@popperjs/core/lib/createPopper.js":
@@ -7,7 +8,6 @@
   \*********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "popperGenerator": () => (/* binding */ popperGenerator),
@@ -295,7 +295,6 @@ var createPopper = /*#__PURE__*/popperGenerator(); // eslint-disable-next-line i
   \***************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ contains)
@@ -333,7 +332,6 @@ function contains(parent, child) {
   \****************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getBoundingClientRect)
@@ -360,7 +358,6 @@ function getBoundingClientRect(element) {
   \**********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getClippingRect)
@@ -458,7 +455,6 @@ function getClippingRect(element, boundary, rootBoundary) {
   \***********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getCompositeRect)
@@ -527,7 +523,6 @@ function getCompositeRect(elementOrVirtualElement, offsetParent, isFixed) {
   \***********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getComputedStyle)
@@ -546,7 +541,6 @@ function getComputedStyle(element) {
   \*************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getDocumentElement)
@@ -567,7 +561,6 @@ function getDocumentElement(element) {
   \**********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getDocumentRect)
@@ -615,7 +608,6 @@ function getDocumentRect(element) {
   \***************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getHTMLElementScroll)
@@ -635,7 +627,6 @@ function getHTMLElementScroll(element) {
   \********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getLayoutRect)
@@ -675,7 +666,6 @@ function getLayoutRect(element) {
   \******************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getNodeName)
@@ -692,7 +682,6 @@ function getNodeName(element) {
   \********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getNodeScroll)
@@ -721,7 +710,6 @@ function getNodeScroll(node) {
   \**********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getOffsetParent)
@@ -805,7 +793,6 @@ function getOffsetParent(element) {
   \********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getParentNode)
@@ -841,7 +828,6 @@ function getParentNode(element) {
   \**********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getScrollParent)
@@ -875,7 +861,6 @@ function getScrollParent(node) {
   \**********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getViewportRect)
@@ -932,7 +917,6 @@ function getViewportRect(element) {
   \****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getWindow)
@@ -958,7 +942,6 @@ function getWindow(node) {
   \**********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getWindowScroll)
@@ -983,7 +966,6 @@ function getWindowScroll(node) {
   \**************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getWindowScrollBarX)
@@ -1013,7 +995,6 @@ function getWindowScrollBarX(element) {
   \*****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "isElement": () => (/* binding */ isElement),
@@ -1053,7 +1034,6 @@ function isShadowRoot(node) {
   \*********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ isScrollParent)
@@ -1078,7 +1058,6 @@ function isScrollParent(element) {
   \*********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ isTableElement)
@@ -1097,7 +1076,6 @@ function isTableElement(element) {
   \************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ listScrollParents)
@@ -1141,7 +1119,6 @@ function listScrollParents(element, list) {
   \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "top": () => (/* binding */ top),
@@ -1209,7 +1186,6 @@ var modifierPhases = [beforeRead, read, afterRead, beforeMain, main, afterMain, 
   \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "afterMain": () => (/* reexport safe */ _enums_js__WEBPACK_IMPORTED_MODULE_0__.afterMain),
@@ -1274,7 +1250,6 @@ __webpack_require__.r(__webpack_exports__);
   \******************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -1374,7 +1349,6 @@ function effect(_ref2) {
   \************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -1499,7 +1473,6 @@ function effect(_ref2) {
   \********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "mapToStyles": () => (/* binding */ mapToStyles),
@@ -1676,7 +1649,6 @@ function computeStyles(_ref4) {
   \*********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -1740,7 +1712,6 @@ function effect(_ref) {
   \***********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -1908,7 +1879,6 @@ function flip(_ref) {
   \***********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -1985,7 +1955,6 @@ function hide(_ref) {
   \************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "applyStyles": () => (/* reexport safe */ _applyStyles_js__WEBPACK_IMPORTED_MODULE_0__.default),
@@ -2025,7 +1994,6 @@ __webpack_require__.r(__webpack_exports__);
   \*************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "distanceAndSkiddingToXY": () => (/* binding */ distanceAndSkiddingToXY),
@@ -2095,7 +2063,6 @@ function offset(_ref2) {
   \********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -2135,7 +2102,6 @@ function popperOffsets(_ref) {
   \**********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -2283,7 +2249,6 @@ function preventOverflow(_ref) {
   \********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "createPopper": () => (/* binding */ createPopper),
@@ -2317,7 +2282,6 @@ var createPopper = /*#__PURE__*/(0,_createPopper_js__WEBPACK_IMPORTED_MODULE_4__
   \***************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "createPopper": () => (/* binding */ createPopper),
@@ -2377,7 +2341,6 @@ var createPopper = /*#__PURE__*/(0,_createPopper_js__WEBPACK_IMPORTED_MODULE_9__
   \***********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ computeAutoPlacement)
@@ -2442,7 +2405,6 @@ function computeAutoPlacement(state, options) {
   \*****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ computeOffsets)
@@ -2530,7 +2492,6 @@ function computeOffsets(_ref) {
   \***********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ debounce)
@@ -2559,7 +2520,6 @@ function debounce(fn) {
   \*****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ detectOverflow)
@@ -2646,7 +2606,6 @@ function detectOverflow(state, options) {
   \******************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ expandToHashMap)
@@ -2666,7 +2625,6 @@ function expandToHashMap(value, keys) {
   \*********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ format)
@@ -2689,7 +2647,6 @@ function format(str) {
   \*************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getAltAxis)
@@ -2706,7 +2663,6 @@ function getAltAxis(axis) {
   \*******************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getBasePlacement)
@@ -2724,7 +2680,6 @@ function getBasePlacement(placement) {
   \*********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getFreshSideObject)
@@ -2746,7 +2701,6 @@ function getFreshSideObject() {
   \***************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getMainAxisFromPlacement)
@@ -2763,7 +2717,6 @@ function getMainAxisFromPlacement(placement) {
   \***********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getOppositePlacement)
@@ -2788,7 +2741,6 @@ function getOppositePlacement(placement) {
   \********************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getOppositeVariationPlacement)
@@ -2811,7 +2763,6 @@ function getOppositeVariationPlacement(placement) {
   \***************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getVariation)
@@ -2828,7 +2779,6 @@ function getVariation(placement) {
   \*******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "max": () => (/* binding */ max),
@@ -2847,7 +2797,6 @@ var round = Math.round;
   \**************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ mergeByName)
@@ -2875,7 +2824,6 @@ function mergeByName(modifiers) {
   \*********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ mergePaddingObject)
@@ -2894,7 +2842,6 @@ function mergePaddingObject(paddingObject) {
   \*****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ orderModifiers)
@@ -2953,7 +2900,6 @@ function orderModifiers(modifiers) {
   \*******************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ rectToClientRect)
@@ -2975,7 +2921,6 @@ function rectToClientRect(rect) {
   \***********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ uniqueBy)
@@ -3000,7 +2945,6 @@ function uniqueBy(arr, fn) {
   \********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ validateModifiers)
@@ -3092,7 +3036,6 @@ function validateModifiers(modifiers) {
   \*********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ within)
@@ -3105,13 +3048,268 @@ function within(min, value, max) {
 
 /***/ }),
 
+/***/ "./src/js/components.js":
+/*!******************************!*\
+  !*** ./src/js/components.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "makeTodoCard": () => (/* binding */ makeTodoCard),
+/* harmony export */   "makeTodoForm": () => (/* binding */ makeTodoForm),
+/* harmony export */   "editTodoForm": () => (/* binding */ editTodoForm)
+/* harmony export */ });
+/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! date-fns */ "./node_modules/date-fns/esm/format/index.js");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils */ "./src/js/utils.js");
+
+
+function makeTodoCard(todo) {
+  var index = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
+  return " \n    <div class=\"card w-100 mb-3\" data-todo-card=\"".concat(todo.id, "\">\n      <div class=\"card-body\">\n        <h5 class=\"card-title\">").concat(todo.title, "</h5>\n        <p class=\"card-text\">").concat(todo.description, " </p>\n        <ul class=\"list-group\">\n          <li class=\"list-group-item py-1\">Date: ").concat((0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(todo.date, 'dd-MM-yyyy'), "</li>\n          <li class=\"list-group-item py-1\">Priority: ").concat(todo.priority, "</li>         \n        </ul>\n      </div>\n      <div class=\"card-footer\">\n        <button class=\"btn py-0\" data-index=\"").concat(index, "\" data-delete=\"").concat(todo.id, "\"><i class=\"bi bi-trash\"></i></button>\n        <button id=\"editTaskBtn\" class=\"btn py-0\" data-update=\"").concat(todo.id, "\" data-bs-toggle=\"modal\" data-bs-target=\"#editTaskModal\"><i class=\"bi bi-pencil-fill\"></i></button>\n      </div>\n    </div>");
+}
+function makeTodoForm() {
+  var todo = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var todoForm = (0,_utils__WEBPACK_IMPORTED_MODULE_0__.parser)("\n    <form id=\"todoForm\">\n      <div class=\"mb-3\">\n        <label for=\"title\" class=\"form-label\">Title</label>\n        <input type=\"text\" value=\"".concat(todo.title || '', "\" class=\"form-control\" id=\"title\" name=\"title\" placeholder=\"What is the title of your task?\" required>\n      </div>\n      <div class=\"mb-3\">\n        <label for=\"description\" class=\"form-label\">Description</label>\n        <textarea class=\"form-control\" id=\"description\" name=\"description\" rows=\"3\" placeholder=\"What is your task about?\" value\"").concat(todo.description || '', "\" required></textarea>\n      </div>\n      <div class=\"mb-3\">\n        <label for=\"date\" class=\"form-label\">Date</label>\n        <input class=\"form-control\" type=\"date\" id=\"date\" name=\"date\" required>\n      </div>\n      <div class=\"mb-3\">\n        <label for=\"priority\" class=\"form-label\">Priotity</label>\n        <select class=\"form-select\" id=\"priority\" name=\"priority\" value\"").concat(todo.priority || 'low', "\">\n            <option value=\"low\">Low</option>\n            <option value=\"mid\" selected>Mid</option>\n            <option value=\"high\">High</option>\n        </select>\n      </div>\n    </form>\n  "));
+  return todoForm;
+}
+function editTodoForm() {
+  var todo = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var todoForm = "\n    <form id=\"editTodoForm\" data-todoId=".concat(todo.id, ">\n      <div class=\"mb-3\">\n        <label for=\"title\" class=\"form-label\">Title</label>\n        <input type=\"text\" value=\"").concat(todo.title || '', "\" class=\"form-control\" id=\"title\" name=\"title\" placeholder=\"What is the title of your task?\" required>\n      </div>\n      <div class=\"mb-3\">\n        <label for=\"description\" class=\"form-label\">Description</label>\n        <textarea class=\"form-control\" id=\"description\" name=\"description\" rows=\"3\" placeholder=\"What is your task about?\" required> ").concat(todo.description, "\n        </textarea>\n      </div>\n      <div class=\"mb-3\">\n        <label for=\"date\" class=\"form-label\">Date</label>\n        <input class=\"form-control\" type=\"date\" id=\"date\" name=\"date\" value=\"").concat((0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(todo.date, 'yyyy-MM-dd'), "\" required>\n      </div>\n      <div class=\"mb-3\">\n        <label for=\"priority\" class=\"form-label\">Priority</label>\n        <select class=\"form-select\" id=\"priority\" name=\"priority\">\n            <option value=\"low\"").concat(todo.priority === 'mid' && 'selected', ">Low</option>\n            <option value=\"mid\" ").concat(todo.priority === 'mid' && 'selected', ">Mid</option>\n            <option value=\"high\" ").concat(todo.priority === 'mid' && 'selected', ">High</option>\n        </select>\n      </div>\n    </form>\n  ");
+  return todoForm;
+}
+
+/***/ }),
+
+/***/ "./src/js/dom.js":
+/*!***********************!*\
+  !*** ./src/js/dom.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "appendTodo": () => (/* binding */ appendTodo),
+/* harmony export */   "appendProject": () => (/* binding */ appendProject),
+/* harmony export */   "getActiveTab": () => (/* binding */ getActiveTab)
+/* harmony export */ });
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components */ "./src/js/components.js");
+/* harmony import */ var _models_todo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./models/todo */ "./src/js/models/todo.js");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./utils */ "./src/js/utils.js");
+
+
+
+function appendTodo(todo) {
+  var index = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
+  var rawHTML = (0,_components__WEBPACK_IMPORTED_MODULE_0__.makeTodoCard)(todo, index);
+  var parsedHTML = (0,_utils__WEBPACK_IMPORTED_MODULE_2__.parser)(rawHTML, 'text/html');
+  var deleteTodo = parsedHTML.querySelector('[data-delete]');
+  var editTaskBtn = parsedHTML.querySelector('#editTaskBtn');
+  var editTaskModal = document.querySelector('#editTaskModal');
+  var editFormModalContainer = editTaskModal.querySelector('.modal-body');
+
+  deleteTodo.onclick = function () {
+    var todoId = deleteTodo.getAttribute('data-delete');
+    var todoIndex = deleteTodo.getAttribute('data-index');
+    var todo = _models_todo__WEBPACK_IMPORTED_MODULE_1__.default.get(todoId);
+    _models_todo__WEBPACK_IMPORTED_MODULE_1__.default.delete(todoIndex);
+    document.querySelector("[data-todo-card=".concat(todo.id, "]")).remove();
+  };
+
+  editTaskBtn.onclick = function () {
+    editFormModalContainer.innerHTML = '';
+    var todoId = editTaskBtn.getAttribute('data-update');
+    var currentTodo = _models_todo__WEBPACK_IMPORTED_MODULE_1__.default.get(todoId);
+    editFormModalContainer.insertAdjacentHTML('beforeend', (0,_components__WEBPACK_IMPORTED_MODULE_0__.editTodoForm)(currentTodo));
+  };
+
+  document.getElementById('projectTodos').appendChild(parsedHTML);
+}
+function appendProject(project) {
+  var active = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+  var projectTab = document.createElement('a');
+  var projectsTree = document.getElementById('projectsTree');
+  projectTab.href = '#';
+  projectTab.id = project.id;
+  projectTab.setAttribute('data-bs-toggle', 'pill');
+  projectTab.classList.add('nav-link');
+  if (active === true) projectTab.classList.add('active');
+  projectTab.innerText = project.name;
+
+  projectTab.onclick = function (event) {
+    var allTodos = _models_todo__WEBPACK_IMPORTED_MODULE_1__.default.getAll();
+    var ownTodos = allTodos.filter(function (todo) {
+      return todo.project.id === event.currentTarget.id;
+    });
+    document.getElementById('projectTodos').innerHTML = '';
+    ownTodos.forEach(function (todo, index) {
+      return appendTodo(todo, index);
+    });
+  };
+
+  projectsTree.appendChild(projectTab);
+}
+function getActiveTab() {
+  return document.querySelector('#projectsTree .nav-link.active');
+}
+
+/***/ }),
+
+/***/ "./src/js/models/project.js":
+/*!**********************************!*\
+  !*** ./src/js/models/project.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Project)
+/* harmony export */ });
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils */ "./src/js/utils.js");
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+
+
+var Project = /*#__PURE__*/function () {
+  function Project(name) {
+    _classCallCheck(this, Project);
+
+    this.name = name;
+    this.id = (0,_utils__WEBPACK_IMPORTED_MODULE_0__.randomID)();
+  }
+
+  _createClass(Project, null, [{
+    key: "get",
+    value: function get(id) {
+      return Project.getAll().find(function (project) {
+        return project.id === id;
+      });
+    }
+  }, {
+    key: "getAll",
+    value: function getAll() {
+      return JSON.parse(localStorage.getItem('projects')) || [];
+    }
+  }]);
+
+  return Project;
+}();
+
+
+
+/***/ }),
+
+/***/ "./src/js/models/todo.js":
+/*!*******************************!*\
+  !*** ./src/js/models/todo.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Todo)
+/* harmony export */ });
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils */ "./src/js/utils.js");
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+
+
+var Todo = /*#__PURE__*/function () {
+  function Todo(data) {
+    _classCallCheck(this, Todo);
+
+    this.title = data.title;
+    this.date = new Date(data.date);
+    this.description = data.description;
+    this.priority = data.priority;
+    this.project = data.project;
+    this.id = data.id ? data.id : (0,_utils__WEBPACK_IMPORTED_MODULE_0__.randomID)();
+  }
+
+  _createClass(Todo, [{
+    key: "isValid",
+    value: function isValid() {
+      if (Object.values(this).every(function (value) {
+        return Boolean(value);
+      })) return true;
+      return false;
+    }
+  }, {
+    key: "save",
+    value: function save() {
+      var allTodos = Todo.getAll();
+      allTodos.push(this);
+      localStorage.setItem('todos', JSON.stringify(allTodos));
+    }
+  }], [{
+    key: "get",
+    value: function get(id) {
+      return Todo.getAll().find(function (todo) {
+        return todo.id === id;
+      });
+    }
+  }, {
+    key: "getAll",
+    value: function getAll() {
+      var todoData = JSON.parse(localStorage.getItem('todos')) || [];
+      return todoData.map(function (data) {
+        return new Todo(data);
+      });
+    }
+  }, {
+    key: "update",
+    value: function update(todos) {
+      localStorage.setItem('todos', JSON.stringify(todos));
+    }
+  }, {
+    key: "delete",
+    value: function _delete(todoIndex) {
+      var allTodos = Todo.getAll();
+      allTodos.splice(todoIndex, 1);
+      localStorage.setItem('todos', JSON.stringify(allTodos));
+    }
+  }]);
+
+  return Todo;
+}();
+
+
+
+/***/ }),
+
+/***/ "./src/js/utils.js":
+/*!*************************!*\
+  !*** ./src/js/utils.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "parser": () => (/* binding */ parser),
+/* harmony export */   "randomID": () => (/* binding */ randomID)
+/* harmony export */ });
+var parser = Range.prototype.createContextualFragment.bind(document.createRange());
+function randomID() {
+  var digits = String(Math.random()).split('.')[1].substr(0, 10);
+  return "ID".concat(digits);
+}
+
+/***/ }),
+
 /***/ "./node_modules/bootstrap/dist/js/bootstrap.esm.js":
 /*!*********************************************************!*\
   !*** ./node_modules/bootstrap/dist/js/bootstrap.esm.js ***!
   \*********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Alert": () => (/* binding */ Alert),
@@ -8085,7 +8283,6 @@ defineJQueryPlugin(Toast);
   \*****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ addLeadingZeros)
@@ -8109,7 +8306,6 @@ function addLeadingZeros(number, targetLength) {
   \*******************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -8996,7 +9192,6 @@ function formatTimezone(offset, dirtyDelimiter) {
   \************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -9095,7 +9290,6 @@ var formatters = {
   \***********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -9205,7 +9399,6 @@ var longFormatters = {
   \*********************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getTimezoneOffsetInMilliseconds)
@@ -9235,7 +9428,6 @@ function getTimezoneOffsetInMilliseconds(date) {
   \*****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getUTCDayOfYear)
@@ -9266,7 +9458,6 @@ function getUTCDayOfYear(dirtyDate) {
   \***************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getUTCISOWeek)
@@ -9300,7 +9491,6 @@ function getUTCISOWeek(dirtyDate) {
   \*******************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getUTCISOWeekYear)
@@ -9343,7 +9533,6 @@ function getUTCISOWeekYear(dirtyDate) {
   \************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getUTCWeek)
@@ -9377,7 +9566,6 @@ function getUTCWeek(dirtyDate, options) {
   \****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ getUTCWeekYear)
@@ -9432,7 +9620,6 @@ function getUTCWeekYear(dirtyDate, dirtyOptions) {
   \*****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "isProtectedDayOfYearToken": () => (/* binding */ isProtectedDayOfYearToken),
@@ -9467,7 +9654,6 @@ function throwProtectedError(token, format, input) {
   \**************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ requiredArgs)
@@ -9486,7 +9672,6 @@ function requiredArgs(required, args) {
   \*******************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ startOfUTCISOWeek)
@@ -9516,7 +9701,6 @@ function startOfUTCISOWeek(dirtyDate) {
   \***********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ startOfUTCISOWeekYear)
@@ -9547,7 +9731,6 @@ function startOfUTCISOWeekYear(dirtyDate) {
   \****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ startOfUTCWeek)
@@ -9588,7 +9771,6 @@ function startOfUTCWeek(dirtyDate, dirtyOptions) {
   \********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ startOfUTCWeekYear)
@@ -9626,7 +9808,6 @@ function startOfUTCWeekYear(dirtyDate, dirtyOptions) {
   \***********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ toInteger)
@@ -9653,7 +9834,6 @@ function toInteger(dirtyNumber) {
   \************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ addMilliseconds)
@@ -9702,7 +9882,6 @@ function addMilliseconds(dirtyDate, dirtyAmount) {
   \***************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ format)
@@ -10159,7 +10338,6 @@ function cleanEscapedString(input) {
   \****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ isValid)
@@ -10240,7 +10418,6 @@ function isValid(dirtyDate) {
   \**************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ buildFormatLongFn)
@@ -10262,7 +10439,6 @@ function buildFormatLongFn(args) {
   \************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ buildLocalizeFn)
@@ -10298,7 +10474,6 @@ function buildLocalizeFn(args) {
   \*********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ buildMatchFn)
@@ -10362,7 +10537,6 @@ function findIndex(array, predicate) {
   \****************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ buildMatchPatternFn)
@@ -10401,7 +10575,6 @@ function buildMatchPatternFn(args) {
   \*****************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ formatDistance)
@@ -10500,7 +10673,6 @@ function formatDistance(token, count, options) {
   \*************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -10549,7 +10721,6 @@ var formatLong = {
   \*****************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ formatRelative)
@@ -10574,7 +10745,6 @@ function formatRelative(token, _date, _baseDate, _options) {
   \***********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -10738,7 +10908,6 @@ var localize = {
   \********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -10852,7 +11021,6 @@ var match = {
   \*********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -10901,7 +11069,6 @@ var locale = {
   \************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ subMilliseconds)
@@ -10949,7 +11116,6 @@ function subMilliseconds(dirtyDate, dirtyAmount) {
   \***************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ toDate)
@@ -11014,330 +11180,10 @@ function toDate(argument) {
 /*!*****************************!*\
   !*** ./src/scss/style.scss ***!
   \*****************************/
-/***/ (() => {
-
-throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/css-loader/dist/cjs.js):\nError: Can't resolve './newlib.jpg' in '/home/wintan1418/desktop/TO-DO-LIST/src/scss'\n    at finishWithoutResolve (/home/wintan1418/desktop/TO-DO-LIST/node_modules/enhanced-resolve/lib/Resolver.js:293:18)\n    at /home/wintan1418/desktop/TO-DO-LIST/node_modules/enhanced-resolve/lib/Resolver.js:362:15\n    at /home/wintan1418/desktop/TO-DO-LIST/node_modules/enhanced-resolve/lib/Resolver.js:410:5\n    at eval (eval at create (/home/wintan1418/desktop/TO-DO-LIST/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)\n    at /home/wintan1418/desktop/TO-DO-LIST/node_modules/enhanced-resolve/lib/Resolver.js:410:5\n    at eval (eval at create (/home/wintan1418/desktop/TO-DO-LIST/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)\n    at /home/wintan1418/desktop/TO-DO-LIST/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:87:43\n    at /home/wintan1418/desktop/TO-DO-LIST/node_modules/enhanced-resolve/lib/Resolver.js:410:5\n    at eval (eval at create (/home/wintan1418/desktop/TO-DO-LIST/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at /home/wintan1418/desktop/TO-DO-LIST/node_modules/enhanced-resolve/lib/Resolver.js:410:5\n    at processResult (/home/wintan1418/desktop/TO-DO-LIST/node_modules/webpack/lib/NormalModule.js:700:19)\n    at /home/wintan1418/desktop/TO-DO-LIST/node_modules/webpack/lib/NormalModule.js:806:5\n    at /home/wintan1418/desktop/TO-DO-LIST/node_modules/loader-runner/lib/LoaderRunner.js:399:11\n    at /home/wintan1418/desktop/TO-DO-LIST/node_modules/loader-runner/lib/LoaderRunner.js:251:18\n    at context.callback (/home/wintan1418/desktop/TO-DO-LIST/node_modules/loader-runner/lib/LoaderRunner.js:124:13)\n    at Object.loader (/home/wintan1418/desktop/TO-DO-LIST/node_modules/css-loader/dist/index.js:155:5)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)");
-
-/***/ }),
-
-/***/ "./src/componentme.js":
-/*!****************************!*\
-  !*** ./src/componentme.js ***!
-  \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "makeTodoCard": () => (/* binding */ makeTodoCard),
-/* harmony export */   "makeTodoForm": () => (/* binding */ makeTodoForm),
-/* harmony export */   "editTodoForm": () => (/* binding */ editTodoForm)
-/* harmony export */ });
-/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! date-fns */ "./node_modules/date-fns/esm/format/index.js");
-/* harmony import */ var _utility__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utility */ "./src/utility.js");
-
-
-
-function makeTodoCard(todo, index = null) {
-  return ` 
-    <div class="card w-100 mb-3" data-todo-card="${todo.id}">
-      <div class="card-body">
-        <h5 class="card-title">${todo.title}</h5>
-        <p class="card-text">${todo.description} </p>
-        <ul class="list-group">
-          <li class="list-group-item py-1">Date: ${(0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(
-    todo.date,
-    'dd-MM-yyyy',
-  )}</li>
-          <li class="list-group-item py-1">Priority: ${
-  todo.priority
-}</li>         
-        </ul>
-      </div>
-      <div class="card-footer">
-        <button class="btn py-0" data-index="${index}" data-delete="${
-  todo.id
-}"><i class="bi bi-trash"></i></button>
-        <button id="editTaskBtn" class="btn py-0" data-update="${
-  todo.id
-}" data-bs-toggle="modal" data-bs-target="#editTaskModal"><i class="bi bi-pencil-fill"></i></button>
-      </div>
-    </div>`;
-}
-
-function makeTodoForm(todo = {}) {
-  const todoForm = (0,_utility__WEBPACK_IMPORTED_MODULE_0__.parser)(`
-    <form id="todoForm">
-      <div class="mb-3">
-        <label for="title" class="form-label">Title</label>
-        <input type="text" value="${
-  todo.title || ''
-}" class="form-control" id="title" name="title" placeholder="What is the title of your task?" required>
-      </div>
-      <div class="mb-3">
-        <label for="description" class="form-label">Description</label>
-        <textarea class="form-control" id="description" name="description" rows="3" placeholder="What is your task about?" value"${
-  todo.description || ''
-}" required></textarea>
-      </div>
-      <div class="mb-3">
-        <label for="date" class="form-label">Date</label>
-        <input class="form-control" type="date" id="date" name="date" required>
-      </div>
-      <div class="mb-3">
-        <label for="priority" class="form-label">Priotity</label>
-        <select class="form-select" id="priority" name="priority" value"${
-  todo.priority || 'low'
-}">
-            <option value="low">Low</option>
-            <option value="mid" selected>Mid</option>
-            <option value="high">High</option>
-        </select>
-      </div>
-    </form>
-  `);
-
-  return todoForm;
-}
-
-function editTodoForm(todo = {}) {
-  const todoForm = `
-    <form id="editTodoForm" data-todoId=${todo.id}>
-      <div class="mb-3">
-        <label for="title" class="form-label">Title</label>
-        <input type="text" value="${
-  todo.title || ''
-}" class="form-control" id="title" name="title" placeholder="What is the title of your task?" required>
-      </div>
-      <div class="mb-3">
-        <label for="description" class="form-label">Description</label>
-        <textarea class="form-control" id="description" name="description" rows="3" placeholder="What is your task about?" required> ${
-  todo.description
-}
-        </textarea>
-      </div>
-      <div class="mb-3">
-        <label for="date" class="form-label">Date</label>
-        <input class="form-control" type="date" id="date" name="date" value="${(0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(
-    todo.date,
-    'yyyy-MM-dd',
-  )}" required>
-      </div>
-      <div class="mb-3">
-        <label for="priority" class="form-label">Priority</label>
-        <select class="form-select" id="priority" name="priority">
-            <option value="low"${
-  todo.priority === 'mid' && 'selected'
-}>Low</option>
-            <option value="mid" ${
-  todo.priority === 'mid' && 'selected'
-}>Mid</option>
-            <option value="high" ${
-  todo.priority === 'mid' && 'selected'
-}>High</option>
-        </select>
-      </div>
-    </form>
-  `;
-  return todoForm;
-}
-
-
-/***/ }),
-
-/***/ "./src/dome.js":
-/*!*********************!*\
-  !*** ./src/dome.js ***!
-  \*********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "appendTodo": () => (/* binding */ appendTodo),
-/* harmony export */   "appendProject": () => (/* binding */ appendProject),
-/* harmony export */   "getActiveTab": () => (/* binding */ getActiveTab)
-/* harmony export */ });
-/* harmony import */ var _componentme__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./componentme */ "./src/componentme.js");
-/* harmony import */ var _todome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./todome */ "./src/todome.js");
-/* harmony import */ var _utility__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./utility */ "./src/utility.js");
-
-
-
-
-function appendTodo(todo, index = null) {
-  const rawHTML = (0,_componentme__WEBPACK_IMPORTED_MODULE_0__.makeTodoCard)(todo, index);
-  const parsedHTML = (0,_utility__WEBPACK_IMPORTED_MODULE_2__.parser)(rawHTML, 'text/html');
-  const deleteTodo = parsedHTML.querySelector('[data-delete]');
-  const editTaskBtn = parsedHTML.querySelector('#editTaskBtn');
-  const editTaskModal = document.querySelector('#editTaskModal');
-  const editFormModalContainer = editTaskModal.querySelector('.modal-body');
-
-  deleteTodo.onclick = () => {
-    const todoId = deleteTodo.getAttribute('data-delete');
-    const todoIndex = deleteTodo.getAttribute('data-index');
-    const todo = _todome__WEBPACK_IMPORTED_MODULE_1__.default.get(todoId);
-
-    _todome__WEBPACK_IMPORTED_MODULE_1__.default.delete(todoIndex);
-    document.querySelector(`[data-todo-card=${todo.id}]`).remove();
-  };
-
-  editTaskBtn.onclick = () => {
-    editFormModalContainer.innerHTML = '';
-    const todoId = editTaskBtn.getAttribute('data-update');
-    const currentTodo = _todome__WEBPACK_IMPORTED_MODULE_1__.default.get(todoId);
-    editFormModalContainer.insertAdjacentHTML(
-      'beforeend',
-      (0,_componentme__WEBPACK_IMPORTED_MODULE_0__.editTodoForm)(currentTodo),
-    );
-  };
-
-  document.getElementById('projectTodos').appendChild(parsedHTML);
-}
-
-function appendProject(project, active = false) {
-  const projectTab = document.createElement('a');
-  const projectsTree = document.getElementById('projectsTree');
-
-  projectTab.href = '#';
-  projectTab.id = project.id;
-  projectTab.setAttribute('data-bs-toggle', 'pill');
-  projectTab.classList.add('nav-link');
-  if (active === true) projectTab.classList.add('active');
-  projectTab.innerText = project.name;
-
-  projectTab.onclick = (event) => {
-    const allTodos = _todome__WEBPACK_IMPORTED_MODULE_1__.default.getAll();
-    const ownTodos = allTodos.filter(
-      (todo) => todo.project.id === event.currentTarget.id,
-    );
-
-    document.getElementById('projectTodos').innerHTML = '';
-    ownTodos.forEach((todo, index) => appendTodo(todo, index));
-  };
-
-  projectsTree.appendChild(projectTab);
-}
-
-function getActiveTab() {
-  return document.querySelector('#projectsTree .nav-link.active');
-}
-
-
-/***/ }),
-
-/***/ "./src/projectme.js":
-/*!**************************!*\
-  !*** ./src/projectme.js ***!
-  \**************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Project)
-/* harmony export */ });
-/* harmony import */ var _utility__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utility */ "./src/utility.js");
-
-
-class Project {
-  constructor(name) {
-    this.name = name;
-    this.id = (0,_utility__WEBPACK_IMPORTED_MODULE_0__.randomID)();
-  }
-
-  static get(id) {
-    return Project.getAll().find((project) => project.id === id);
-  }
-
-  static getAll() {
-    return JSON.parse(localStorage.getItem('projects')) || [];
-  }
-}
-
-/***/ }),
-
-/***/ "./src/todome.js":
-/*!***********************!*\
-  !*** ./src/todome.js ***!
-  \***********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Todo)
-/* harmony export */ });
-/* harmony import */ var _utility__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utility */ "./src/utility.js");
-
-
-class Todo {
-  constructor(data) {
-    this.title = data.title;
-    this.date = new Date(data.date);
-    this.description = data.description;
-    this.priority = data.priority;
-    this.project = data.project;
-    this.id = data.id ? data.id : (0,_utility__WEBPACK_IMPORTED_MODULE_0__.randomID)();
-  }
-
-  isValid() {
-    if (Object.values(this).every((value) => Boolean(value))) return true;
-    return false;
-  }
-
-  save() {
-    const allTodos = Todo.getAll();
-
-    allTodos.push(this);
-    localStorage.setItem('todos', JSON.stringify(allTodos));
-  }
-
-  static get(id) {
-    return Todo.getAll().find((todo) => todo.id === id);
-  }
-
-  static getAll() {
-    const todoData = JSON.parse(localStorage.getItem('todos')) || [];
-
-    return todoData.map((data) => new Todo(data));
-  }
-
-  static update(todos) {
-    localStorage.setItem('todos', JSON.stringify(todos));
-  }
-
-  static delete(todoIndex) {
-    const allTodos = Todo.getAll();
-
-    allTodos.splice(todoIndex, 1);
-    localStorage.setItem('todos', JSON.stringify(allTodos));
-  }
-}
-
-
-/***/ }),
-
-/***/ "./src/utility.js":
-/*!************************!*\
-  !*** ./src/utility.js ***!
-  \************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "parser": () => (/* binding */ parser),
-/* harmony export */   "randomID": () => (/* binding */ randomID)
-/* harmony export */ });
-const parser = Range.prototype.createContextualFragment.bind(
-  document.createRange(),
-);
-
-function randomID() {
-  const digits = String(Math.random()).split('.')[1].substr(0, 10);
-  return `ID${digits}`;
-}
+// extracted by mini-css-extract-plugin
 
 
 /***/ })
@@ -11369,18 +11215,6 @@ function randomID() {
 /******/ 	}
 /******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -11411,127 +11245,110 @@ function randomID() {
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-"use strict";
-/*!************************!*\
-  !*** ./src/myindex.js ***!
-  \************************/
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/style.scss */ "./src/scss/style.scss");
-/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_style_scss__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.esm.js");
-/* harmony import */ var _projectme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./projectme */ "./src/projectme.js");
-/* harmony import */ var _todome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./todome */ "./src/todome.js");
-/* harmony import */ var _dome__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./dome */ "./src/dome.js");
-/* harmony import */ var _componentme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./componentme */ "./src/componentme.js");
+/* harmony import */ var _js_models_project__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/models/project */ "./src/js/models/project.js");
+/* harmony import */ var _js_models_todo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/models/todo */ "./src/js/models/todo.js");
+/* harmony import */ var _js_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./js/dom */ "./src/js/dom.js");
+/* harmony import */ var _js_components__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./js/components */ "./src/js/components.js");
 
 
 
 
 
 
+var projectForm = document.getElementById('projectForm');
+var todoModal = document.getElementById('todoModal');
+var submitEditTaskForm = document.getElementById('submitEditTaskFormBtn');
 
-const projectForm = document.getElementById('projectForm');
-const todoModal = document.getElementById('todoModal');
-const submitEditTaskForm = document.getElementById('submitEditTaskFormBtn');
-
-projectForm.onsubmit = (event) => {
+projectForm.onsubmit = function (event) {
   event.preventDefault();
-
-  const projectName = document.getElementById('projectName').value;
-  const newProject = new _projectme__WEBPACK_IMPORTED_MODULE_2__.default(projectName);
-  const allProjects = _projectme__WEBPACK_IMPORTED_MODULE_2__.default.getAll();
-
+  var projectName = document.getElementById('projectName').value;
+  var newProject = new _js_models_project__WEBPACK_IMPORTED_MODULE_2__.default(projectName);
+  var allProjects = _js_models_project__WEBPACK_IMPORTED_MODULE_2__.default.getAll();
   allProjects.push(newProject);
   localStorage.setItem('projects', JSON.stringify(allProjects));
-  (0,_dome__WEBPACK_IMPORTED_MODULE_4__.appendProject)(newProject);
+  (0,_js_dom__WEBPACK_IMPORTED_MODULE_4__.appendProject)(newProject);
   projectForm.reset();
 };
 
-submitEditTaskForm.onclick = () => {
-  const editTaskForm = document.getElementById('editTodoForm');
-
-  const newTitle = editTaskForm.querySelector('#title').value;
-  const newDescription = editTaskForm.querySelector('#description').value;
-  const newDate = editTaskForm.querySelector('#date').value;
-  const newPriority = editTaskForm.querySelector('#priority').value;
-
-  const todoId = editTaskForm.getAttribute('data-todoId');
-  const currentTodo = _todome__WEBPACK_IMPORTED_MODULE_3__.default.get(todoId);
-  const allTodos = _todome__WEBPACK_IMPORTED_MODULE_3__.default.getAll();
-  const updatedTodo = {
+submitEditTaskForm.onclick = function () {
+  var editTaskForm = document.getElementById('editTodoForm');
+  var newTitle = editTaskForm.querySelector('#title').value;
+  var newDescription = editTaskForm.querySelector('#description').value;
+  var newDate = editTaskForm.querySelector('#date').value;
+  var newPriority = editTaskForm.querySelector('#priority').value;
+  var todoId = editTaskForm.getAttribute('data-todoId');
+  var currentTodo = _js_models_todo__WEBPACK_IMPORTED_MODULE_3__.default.get(todoId);
+  var allTodos = _js_models_todo__WEBPACK_IMPORTED_MODULE_3__.default.getAll();
+  var updatedTodo = {
     title: newTitle,
     description: newDescription,
     date: newDate,
     priority: newPriority,
     project: currentTodo.project,
-    id: currentTodo.id,
+    id: currentTodo.id
   };
-
-  const updatedTodoArray = allTodos.map((todo) => {
+  var updatedTodoArray = allTodos.map(function (todo) {
     if (todo.id === todoId) {
       todo = updatedTodo;
     }
+
     return todo;
   });
-
-  _todome__WEBPACK_IMPORTED_MODULE_3__.default.update(updatedTodoArray);
-
+  _js_models_todo__WEBPACK_IMPORTED_MODULE_3__.default.update(updatedTodoArray);
   document.querySelector('#editTaskClose').click();
-
   document.getElementById('projectTodos').innerHTML = '';
-  _todome__WEBPACK_IMPORTED_MODULE_3__.default.getAll().forEach((todo) => (0,_dome__WEBPACK_IMPORTED_MODULE_4__.appendTodo)(todo));
+  _js_models_todo__WEBPACK_IMPORTED_MODULE_3__.default.getAll().forEach(function (todo) {
+    return (0,_js_dom__WEBPACK_IMPORTED_MODULE_4__.appendTodo)(todo);
+  });
 };
 
-todoModal.addEventListener('show.bs.modal', () => {
-  todoModal.querySelector('.modal-body').appendChild((0,_componentme__WEBPACK_IMPORTED_MODULE_5__.makeTodoForm)());
+todoModal.addEventListener('show.bs.modal', function () {
+  todoModal.querySelector('.modal-body').appendChild((0,_js_components__WEBPACK_IMPORTED_MODULE_5__.makeTodoForm)());
+  var todoForm = document.getElementById('todoForm');
 
-  const todoForm = document.getElementById('todoForm');
-
-  todoForm.onsubmit = (event) => {
+  todoForm.onsubmit = function (event) {
     event.preventDefault();
-
-    const todoData = {
+    var todoData = {
       title: document.getElementById('title').value,
       description: document.getElementById('description').value,
       date: document.getElementById('date').value,
       priority: document.getElementById('priority').value,
-      project: _projectme__WEBPACK_IMPORTED_MODULE_2__.default.get((0,_dome__WEBPACK_IMPORTED_MODULE_4__.getActiveTab)().id),
+      project: _js_models_project__WEBPACK_IMPORTED_MODULE_2__.default.get((0,_js_dom__WEBPACK_IMPORTED_MODULE_4__.getActiveTab)().id)
     };
-
-    const newTodo = new _todome__WEBPACK_IMPORTED_MODULE_3__.default(todoData);
-
+    var newTodo = new _js_models_todo__WEBPACK_IMPORTED_MODULE_3__.default(todoData);
     newTodo.save();
-    (0,_dome__WEBPACK_IMPORTED_MODULE_4__.appendTodo)(newTodo);
-
+    (0,_js_dom__WEBPACK_IMPORTED_MODULE_4__.appendTodo)(newTodo);
     todoForm.reset();
     bootstrap__WEBPACK_IMPORTED_MODULE_1__.Modal.getInstance(document.getElementById('todoModal')).hide();
   };
 });
-
-todoModal.addEventListener('hide.bs.modal', () => {
+todoModal.addEventListener('hide.bs.modal', function () {
   todoModal.querySelector('.modal-body').innerHTML = '';
 });
-
-const allProjects = _projectme__WEBPACK_IMPORTED_MODULE_2__.default.getAll();
+var allProjects = _js_models_project__WEBPACK_IMPORTED_MODULE_2__.default.getAll();
 
 if (allProjects.length > 0) {
-  allProjects.forEach((project, index) => {
-    const active = index === 0;
-    (0,_dome__WEBPACK_IMPORTED_MODULE_4__.appendProject)(project, active);
+  allProjects.forEach(function (project, index) {
+    var active = index === 0;
+    (0,_js_dom__WEBPACK_IMPORTED_MODULE_4__.appendProject)(project, active);
   });
 } else {
-  const defaultProject = new _projectme__WEBPACK_IMPORTED_MODULE_2__.default('Default');
-
+  var defaultProject = new _js_models_project__WEBPACK_IMPORTED_MODULE_2__.default('Default');
   localStorage.setItem('projects', JSON.stringify([defaultProject]));
-  (0,_dome__WEBPACK_IMPORTED_MODULE_4__.appendProject)(defaultProject, true);
+  (0,_js_dom__WEBPACK_IMPORTED_MODULE_4__.appendProject)(defaultProject, true);
 }
 
-_todome__WEBPACK_IMPORTED_MODULE_3__.default.getAll().forEach((todo) => {
-  if (todo.project.id === (0,_dome__WEBPACK_IMPORTED_MODULE_4__.getActiveTab)().id) (0,_dome__WEBPACK_IMPORTED_MODULE_4__.appendTodo)(todo);
+_js_models_todo__WEBPACK_IMPORTED_MODULE_3__.default.getAll().forEach(function (todo) {
+  if (todo.project.id === (0,_js_dom__WEBPACK_IMPORTED_MODULE_4__.getActiveTab)().id) (0,_js_dom__WEBPACK_IMPORTED_MODULE_4__.appendTodo)(todo);
 });
-
 })();
 
 /******/ })()

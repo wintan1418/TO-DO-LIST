@@ -1,9 +1,9 @@
 import './scss/style.scss';
 import { Modal } from 'bootstrap';
-import Project from './projectme';
-import Todo from './todome';
-import { appendTodo, appendProject, getActiveTab } from './dome';
-import { makeTodoForm } from './componentme';
+import Project from './js/models/project';
+import Todo from './js/models/todo';
+import { appendTodo, appendProject, getActiveTab } from './js/dom';
+import { makeTodoForm } from './js/components';
 
 const projectForm = document.getElementById('projectForm');
 const todoModal = document.getElementById('todoModal');

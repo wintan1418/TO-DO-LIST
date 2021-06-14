@@ -1,5 +1,5 @@
 import { format } from 'date-fns';
-import { parser } from './utility';
+import { parser } from './utils';
 
 export function makeTodoCard(todo, index = null) {
   return ` 

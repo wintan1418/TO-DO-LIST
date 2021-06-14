@@ -1,6 +1,6 @@
-import { makeTodoCard, editTodoForm } from './componentme';
-import Todo from './todome';
-import { parser } from './utility';
+import { makeTodoCard, editTodoForm } from './components';
+import Todo from './models/todo';
+import { parser } from './utils';
 
 export function appendTodo(todo, index = null) {
   const rawHTML = makeTodoCard(todo, index);
