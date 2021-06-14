@@ -30,6 +30,9 @@ This project entails you building an app that allows you to
 - Navigate to the root directory of the project
 - Open index.html or run it using your own live server
 
+## running test
+To run tests automatically, in your terminal, cd into  the directory of this project and run this command: npm run test.
+
 👤 Author
 
 Oluwadare Juwon
