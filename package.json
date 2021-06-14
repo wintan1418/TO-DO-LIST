@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/wintan1418/TO-DO-LIST/issues"
   },
-  "homepage": "https://github.com/wintan1418/TO-DO-LIST#readme"
+  "homepage": "https://github.com/wintan1418/TO-DO-LIST#readme",
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
 }
